@@ -1,18 +1,37 @@
-# Connect
-The connect is a video calling app made on jitsi sdk. Users will sign up for their account using some basic details like the first name, last name, email, and password. To store all of the user data we will be using the cloud fire store database, which is a flexible and scalable database for mobile, web, and server development from Firebase and Google Cloud Platform.
+# Description:
+This project is a feature-rich Android video-calling app that utilizes Jitsi SDK for seamless real-time communication. The app enables users to sign up with their basic details and securely stores the data using Firebase Cloud Firestore. User authentication is handled through Firebase Authentication, providing a convenient auto-sign-in feature. The app includes the following key functionalities:
 
-After sign up, the user will sign in to their account using email and password. We will store logged user information into shared preferences to handle auto-sign in so users don't need to enter email and password every time.
+# User Registration and Authentication:
 
-After sign in, we will display a list of other users that are signed up in our application except for the currently logged user because nobody is going to start a video meeting with himself.
+1. Users can sign up using their first name, last name, email, and password.
+2. Firebase Authentication ensures secure authentication and user management.
 
-In a video meeting, the user will initiate the video meeting by sending a meeting invitation to another user. To send a meeting invitation we will use firebase cloud messaging which is a cross-platform messaging solution that lets you reliably send messages at no cost. Using FCM, you can notify a client app that a new email or other data is available to sync.
+# User Listing:
 
-Once the meeting invitation sent, the receiver has two options, accept or reject the invitation. On acceptance or rejection, the related response message will be sent to the meeting initiator or sender. If the user wants to cancel the meeting invitation then it can be done by the hang-up process, in which another remote message will be sent to the receiver to cancel the current meeting invitation. This is the complete meeting invitation process.
+1. The app displays a list of other registered users, excluding the current user.
+2. This feature allows users to connect and initiate video meetings with others.
 
-On acceptance of the meeting invitation, the video meeting will start using the Jitsi Meet. To implement video meetings or conferences lots of groundwork is needed, to simplify this process we will use a pre-built Jitsi Meet client which is a free, open-source project that provides web browsers and mobile applications with real-time communication (RTC) via simple application programming interfaces (APIs). It allows audio and video communication to work inside applications and web pages by allowing direct peer-to-peer communication, eliminating the need to install plugins or download native apps. This Jitsi Meet client provides the facilities like, switch sound devices, invite more people to the meeting, audio-only mode, toggle camera, tile view in case of more people. The best part is you can also start chat conversion during video meetings.
+# Meeting Invitations:
 
-The app has additional features like adding new meetings and get notified at the time of meeting, get to know locations of the users who are using the app.
+1. Users can send meeting invitations to other users using Firebase Cloud Messaging.
+2. Invitations can be accepted or rejected, triggering appropriate response messages.
+3. The initiator can cancel meeting invitations by initiating a hang-up process.
 
-These are some images of the app.
+# Video Meetings using Jitsi Meet:
 
-<img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/splashScreen.jpeg" width="200" height="400" /><img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/intro1.jpeg" width="200" height="400" /><img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/intro2.jpeg" width="200" height="400" /><img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/intro3.jpeg" width="200" height="400" /><img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/login.jpeg" width="200" height="400" /><img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/register.jpeg" width="200" height="400" /><img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/Home.jpeg" width="200" height="400" /><img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/Meetings.jpeg" width="200" height="400" /><img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/Locations.jpeg" width="200" height="400" /><img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/info.jpeg" width="200" height="400" /><img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/call%20Interface.jpg" width="200" height="400" /><img src="https://github.com/ksnvdkalyan/Video-Calling-App/blob/master/app%20Demo%20Images/features.jpg" width="200" height="400" />
+1. Accepted invitations to launch video meetings powered by Jitsi Meet.
+2. Jitsi Meet provides real-time audio and video communication with rich features.
+3. Features include switching sound devices, inviting more participants, audio-only mode, toggling the camera, and tile view.
+4. Users can also engage in chat conversations during video meetings.
+
+# Additional Features:
+
+1. Scheduling new meetings and receiving notifications at the scheduled time.
+2. Accessing the locations of other users who are using the app.
+
+# Technology Stack:
+
+1. Jitsi SDK: Used for implementing video calling functionality and real-time communication.
+2. Firebase Cloud Firestore: A scalable and flexible database for storing user data.
+3. Firebase Authentication: Enables user registration, login, and secure authentication.
+4. Firebase Cloud Messaging (FCM): Facilitates sending meeting invitations and remote messages.
