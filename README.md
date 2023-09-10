@@ -35,3 +35,13 @@ This project is a feature-rich Android video-calling app that utilizes Jitsi SDK
 2. Firebase Cloud Firestore: A scalable and flexible database for storing user data.
 3. Firebase Authentication: Enables user registration, login, and secure authentication.
 4. Firebase Cloud Messaging (FCM): Facilitates sending meeting invitations and remote messages.
+
+
+# Here is a demo of the Application
+
+![photo_2021-04-13_00-15-19](https://github.com/govind978/Zoom-Clone-Application/assets/68467567/87aeb7f3-0897-46f5-81bc-152a198fa547)
+![photo_2021-04-13_00-15-16](https://github.com/govind978/Zoom-Clone-Application/assets/68467567/e2fb8236-680c-47ed-8958-593371e2a497)
+![photo_2021-04-13_00-15-35](https://github.com/govind978/Zoom-Clone-Application/assets/68467567/11615bfe-2481-4359-a915-4f92faa2d2b8)
+![photo_2021-04-13_00-15-34](https://github.com/govind978/Zoom-Clone-Application/assets/68467567/05a5017e-a053-46ca-a5f4-5a2ad86b9317)
+![photo_2021-04-13_00-15-30](https://github.com/govind978/Zoom-Clone-Application/assets/68467567/71a3e39a-8dd0-4d9f-afce-21d6c9bcc2f0)
+![photo_2021-04-13_00-15-26](https://github.com/govind978/Zoom-Clone-Application/assets/68467567/eebb547b-7fe1-4ebd-8051-9c554c5b4376)
