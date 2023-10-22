@@ -1,5 +1,5 @@
 # Description:
-This project is a feature-rich Android video-calling app that utilizes Jitsi SDK for seamless real-time communication. The app enables users to sign up with their basic details and securely stores the data using Firebase Cloud Firestore. User authentication is handled through Firebase Authentication, providing a convenient auto-sign-in feature. The app includes the following key functionalities:
+This project is a feature-rich Android video-calling app that utilizes Jitsi SDK for seamless real-time communication. The app enables users to sign up with their basic details and securely stores the data using Firebase Cloud Firestore. User authentication is handled through Firebase Authentication, which provides a convenient auto-sign-in feature. The app includes the following key functionalities:
 
 # User Registration and Authentication:
 
@@ -39,9 +39,4 @@ This project is a feature-rich Android video-calling app that utilizes Jitsi SDK
 
 # Here is a demo of the Application
 
-![photo_2021-04-13_00-15-19](https://github.com/govind978/Zoom-Clone-Application/assets/68467567/87aeb7f3-0897-46f5-81bc-152a198fa547)
-![photo_2021-04-13_00-15-16](https://github.com/govind978/Zoom-Clone-Application/assets/68467567/e2fb8236-680c-47ed-8958-593371e2a497)
-![photo_2021-04-13_00-15-35](https://github.com/govind978/Zoom-Clone-Application/assets/68467567/11615bfe-2481-4359-a915-4f92faa2d2b8)
-![photo_2021-04-13_00-15-34](https://github.com/govind978/Zoom-Clone-Application/assets/68467567/05a5017e-a053-46ca-a5f4-5a2ad86b9317)
-![photo_2021-04-13_00-15-30](https://github.com/govind978/Zoom-Clone-Application/assets/68467567/71a3e39a-8dd0-4d9f-afce-21d6c9bcc2f0)
-![photo_2021-04-13_00-15-26](https://github.com/govind978/Zoom-Clone-Application/assets/68467567/eebb547b-7fe1-4ebd-8051-9c554c5b4376)
+![GIF](https://github.com/govind978/Zoom-Clone-Application/assets/68467567/2ee40a67-e07f-4027-88f3-e360afd56145)
